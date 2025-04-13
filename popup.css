@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+img{
+    width: 30px;
+    height: 30px;
+   margin-top: 40px;
+   margin-left: 7px;
+   margin-right: 7px;
+}
+.imagine{
+    margin-top: 10px;
+}
+.popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    width: 50px;
+    height: 550px;
+            border-radius: 10px; 
+           
+}
+.profileid{
+    margin-top: 140px;
+    margin-bottom: 30px;
+    width: 50px;
+}
+.imagine:hover{
+    background-color:blueviolet;
+            border-radius: 10px; 
+    
+}
+.line {
+    width: 2px;
+    height: 550px; /* Dimensiunea inițială */
+    background-color: blueviolet;
+    transition: height 1s ease; /* Tranziție pentru înălțime */
+}
+.imagini{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 550px;
+  
+}
+.text{
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+}
+h1{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.clasa{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.upbar{
+    margin-top: 10px;
+}
+p{
+    margin-left: 10px;
+}
+.clasa:hover{
+   background-color: blueviolet;
+   border-radius: 10px; 
+}
+.navbar{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+  
+}
+.navbar2{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.navbar1{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+}
+.navbar2:hover{
+    background-color: blueviolet;
+    border-radius: 10px; 
+}
+.text, .line, p, h1 {
+    color: inherit;
+}
